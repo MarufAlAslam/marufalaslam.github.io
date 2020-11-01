@@ -1,4 +1,7 @@
 *{
     font-family: 'Poppins', sans-serif;
-    color: red;
+}
+
+body{
+    background-color: red;
 }
