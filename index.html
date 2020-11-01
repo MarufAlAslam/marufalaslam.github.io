@@ -16,6 +16,12 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
       rel="stylesheet">
 
+    <!-- font awesome css -->
+    <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <!-- progressbar css -->
+    <link rel="stylesheet" href="jquery.lineProgressbar.css">
+
     <!-- style css -->
     <link rel="stylesheet" href="style.css">
 
@@ -23,18 +29,22 @@
   </head>
   <body>
 
-<section class="banner">
-<div class="container">
-  <h1 class="font-100 text-white font-weight-bold">Hello</h1>
-  <h1 class="font-60 text-white font-weight-bold">I am Maruf</h1>
-  <p class="lead text-white">Student, WEB Designer/Developer, Software Developer</p>
-  <a class="btn btn-success text-uppercase px-5 py-2 mt-4" href="https://www.fiverr.com/webdevmaruf?up_rollout=true" target="_blank">Hire me</a>
-</div>
-</section>
+    <section class="banner">
+      <div class="container">
+        <h1 class="font-100 text-white font-weight-bold">Hello</h1>
+        <h1 class="font-60 text-white font-weight-bold">I am Maruf</h1>
+        <p class="lead text-white">Student, WEB Designer/Developer, Software
+          Developer</p>
+        <a class="btn btn-success text-uppercase px-5 py-2 mt-4"
+          href="https://www.fiverr.com/webdevmaruf?up_rollout=true"
+          target="_blank">Hire me</a>
+      </div>
+    </section>
     <header class="sticky-top">
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container">
-          <a class="navbar-brand" href="#"><h3 class="font-weight-bold">Maruf's Planet</h3></a>
+          <a class="navbar-brand" href="#"><h3 class="font-weight-bold">Maruf's
+              Planet</h3></a>
           <button class="navbar-toggler" type="button" data-toggle="collapse"
             data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
             aria-expanded="false" aria-label="Toggle navigation">
@@ -43,7 +53,7 @@
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav ml-auto">
               <a class="nav-link" href="#">Intro</a>
-              <a class="nav-link" href="#expertise">Expertise</a>
+              <a class="nav-link" href="#expertise" id="expmenu">Expertise</a>
               <a class="nav-link" href="#projects">Projects</a>
               <a class="nav-link" href="#testimonial">Testimonials</a>
               <a class="nav-link" href="#review">Reviews</a>
@@ -58,6 +68,130 @@
     </section>
 
     <!-- ==================== expertise section ===================== -->
+    <section class="expertise" id="expertise">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 left">
+            <div class="ml-auto">
+              <p class="font-30 mt-3">Know</p>
+              <h3 class="font-40 font-weight-bold">My Expertise</h3>
+              <div class="line bg-dark"></div>
+              <p class="text-muted mb-4">I am not really expert on these. But I want
+                to learn more.</p>
+
+                <!-- progressbar -->
+              <label for="">HTML</label>
+              <div id="html"></div>
+              <label for="">CSS</label>
+              <div id="css"></div>
+              <label for="">Javascript</label>
+              <div id="js"></div>
+              <label for="">php</label>
+              <div id="php"></div>
+              <!-- <div line-progressbar
+                data-percentage="50"
+                data-progress-color="#1abc9c"
+                data-OPTION="value">
+              </div> -->
+            </div>
+          </div>
+          <div class="col-md-8">
+            <div class="row">
+              <div class="col-md-4 my-3">
+                <div class="card text-center">
+                  <div class="card-body">
+                    <i class="fab fa-html5 fa-3x text-success"></i>
+                    <h4>HTML</h4>
+                    <p>frontend</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-4 my-3">
+                <div class="card text-center">
+                  <div class="card-body">
+                    <i class="fab fa-css3-alt fa-3x text-success"></i>
+                    <h4>CSS</h4>
+                    <p>frontend</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-4 my-3">
+                <div class="card text-center">
+                  <div class="card-body">
+                    <i class="fab fa-bootstrap fa-3x text-success"></i>
+                    <h4>Bootstrap</h4>
+                    <p>frontend</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-4 my-3">
+                <div class="card text-center">
+                  <div class="card-body">
+                    <i class="fab fa-js fa-3x text-success"></i>
+                    <h4>Javascript</h4>
+                    <p>ES-6</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 my-3">
+                <div class="card text-center">
+                  <div class="card-body">
+                    <i class="fab fa-react fa-3x text-success"></i>
+                    <h4>React.js</h4>
+                    <p>frontend</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-4 my-3">
+                <div class="card text-center">
+                  <div class="card-body">
+                    <i class="fab fa-node fa-3x text-success"></i>
+                    <h4>Node.js</h4>
+                    <p>backend</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-4 my-3">
+                <div class="card text-center">
+                  <div class="card-body">
+                    <i class="fab fa-php fa-3x text-success"></i>
+                    <h4>Php</h4>
+                    <p>backend</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-4 my-3">
+                <div class="card text-center">
+                  <div class="card-body">
+                    <i class="fab fa-android fa-3x text-success"></i>
+                    <h4>Android</h4>
+                    <p>Java</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-4 my-3">
+                <div class="card text-center">
+                  <div class="card-body">
+                    <i class="fab fa-android fa-3x text-success"></i>
+                    <h4>Android</h4>
+                    <p>Flutter</p>
+                  </div>
+                </div>
+              </div>
+
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <!-- Optional JavaScript; choose one of the two! -->
 
@@ -68,6 +202,9 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
       crossorigin="anonymous"></script>
+    
+    <script src="//code.jquery.com/jquery.min.js"></script>
+
     <script
       src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
       integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
@@ -77,5 +214,11 @@
       integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s"
       crossorigin="anonymous"></script>
 
+      <!-- scrollto js -->
+      <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/2.1.2/jquery.scrollTo.min.js"></script>
+
+
+    <script src="jquery.lineProgressbar.js"></script>
+    <script src="script.js"></script>
   </body>
 </html>

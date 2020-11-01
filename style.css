@@ -9,6 +9,19 @@
     font-size: 60px;
 }
 
+.font-40{
+    font-size: 40px;
+}
+
+.font-30{
+    font-size: 30px;
+}
+
+.line{
+    height: 3px;
+    width: 120px;
+    margin: 20px 0;
+}
 .banner{
     padding: 150px 0 127px 0;
     background-image: linear-gradient(rgba(0,0,0,0.6),rgba(121, 98, 98, 0.8)),url("https://images.pexels.com/photos/705164/computer-laptop-work-place-camera-705164.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
@@ -16,3 +29,14 @@
     background-position: center;
     background-size: cover;
 }
+
+/* ============== expertise ================== */
+.expertise{
+    padding: 80px 0;
+}
+
+.expertise p{
+    padding: 0;
+    margin: 0;
+}
+
