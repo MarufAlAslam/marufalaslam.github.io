@@ -1,3 +1,18 @@
 *{
     font-family: 'Poppins', sans-serif;
 }
+.font-100{
+    font-size: 100px;
+}
+
+.font-60{
+    font-size: 60px;
+}
+
+.banner{
+    padding: 150px 0 127px 0;
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(121, 98, 98, 0.8)),url("https://images.pexels.com/photos/705164/computer-laptop-work-place-camera-705164.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
